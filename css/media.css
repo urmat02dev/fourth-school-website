@@ -1,0 +1,158 @@
+@media (max-width: 1440px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .school {
+        flex-direction: column;
+    }
+
+    .school-info h1 {
+        padding-top: 50px;
+    }
+
+    .teacher-galery-img {
+        flex-direction: column;
+    }
+
+    .maps-all {
+        flex-direction: column;
+    }
+    .school-text{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar-nav{
+        display: none;
+    }
+    .icon {
+        justify-content: center;
+
+    }
+    .hero-text h1 {
+        font-size: 30px;
+        padding-left: 100px;
+
+    }
+    .hero-text p {
+        font-size: 17px;
+
+        padding-left: 90px;
+    }
+
+    .teacher-galery-img div {
+        display: flex;
+        flex-direction: column;
+    }
+.teacher-galery-img-two-img{
+    padding: 20px 0;
+}
+    .teacher-galery-img-three-img{
+        padding: 20px 0;
+    }
+    .hero-img img{
+        width: 90%;
+    }
+    .school-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .school-img img{
+        width: 90%;
+    }
+    .school-img:before {
+        position: absolute;
+        content: ' ';
+        width: 90%;
+        height: 90%;
+
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .hero-text h1 {
+        padding-left: 100px;
+    }
+
+    .hero-text p{
+        padding-left: 40px;
+    }
+    .school-img img{
+        width: 90%;
+    }
+    .school-img img:before{
+        width: 90%;
+        height: 90%;
+    }
+    .school-desc {
+        font-size: 14px;
+    }
+    .teacher-title-two p {
+        font-size: 14px;
+    }
+    .maps-right{
+        width: 90%;
+        display: flex;
+    }
+
+    .footer-text {
+        flex-direction: column;
+    }
+    .footer-logo-a {
+        padding-bottom: 30px;
+    }
+
+
+}
+@media (max-width: 450px) {
+
+}
+@media (max-width: 400px) {
+    .hero-text h1{
+        padding-left: 52px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        width: 51%;
+        padding-left: 70px;
+    }
+    .school-desc{
+        width: 70%;
+        font-size: 13px;
+        padding-left: 50px;
+    }
+    .teacher-title-two p{
+
+    }
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 350px) {
+
+}
+@media (max-width: 320px) {
+
+}
